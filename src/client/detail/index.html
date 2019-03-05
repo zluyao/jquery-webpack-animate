@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu white">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo-white.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li class="active">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <img class="bg"
+       src="../invite/images/bg-1.png">
+  <img class="left-top"
+       src="../invite/images/b-1-l-t.png">
+</body>
+
+</html>

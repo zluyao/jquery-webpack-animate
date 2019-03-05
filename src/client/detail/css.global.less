@@ -1,0 +1,295 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  >img.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19.2rem;
+    height: 11.3rem;
+  }
+  >.left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.44rem;
+  }
+}
+
+.menu {
+  z-index: 1;
+  top: 2.84rem;
+  left: .8rem;
+}
+
+.website-logo {
+  position: absolute;
+  top: 2.56rem;
+  left: .69rem;
+  width: 1rem;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  .center-content {
+    width: 6.4rem;
+    height: 7.6rem;
+    position: absolute;
+    left: 5.06rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    .type-box {
+      width: 6.4rem;
+      border-bottom: 1px solid #217BDF;
+      font-size: 0.18rem;
+      color: #fff;
+      margin-bottom: 0.4rem;
+      >span {
+        margin-right: 0.6rem;
+        padding-bottom: 0.15rem;
+        display: inline-block;
+        opacity: .6;
+        cursor: pointer;
+      }
+      >.activity {
+        font-size: 0.36rem;
+        opacity: 1;
+        cursor: default;
+        border-bottom: 2px solid #fff;
+      }
+    }
+    .photo-box {
+      width: 6.4rem;
+      >div {
+        width: 2rem;
+        height: 2rem;
+        float: left;
+        margin-bottom: 0.2rem;
+        >div {
+          width: 100%;
+          height: 100%;
+          transition: transform 0.3s;
+          overflow: hidden;
+          position: relative;
+          >img {
+            width: 100%;
+          }
+          .imgH {
+            height: 100%;
+            width: auto;
+          }
+          .annotation {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+      >div:nth-child(3n+2) {
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+      }
+      .scaleImg {
+        position: relative;
+      } // >div:hover {
+      //   >div {
+      //     transform: scale(1.1);
+      //     position: relative;
+      //   }
+      // }
+    }
+    .info-box {
+      width: 6.4rem;
+      font-size: 0.18rem;
+      color: #fff;
+      line-height: 0.36rem;
+      height: 6.56rem;
+      overflow-y: scroll;
+      padding-right: 0.2rem;
+      &::-webkit-scrollbar {
+        width: 5px;
+        height: 100%;
+        background-color: #3183DD;
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        background-color: #3183DD;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+        background-color: #CBE4FF;
+      }
+      img{
+        width: 100%;
+      }
+    }
+    .video-box {
+      width: 6.4rem;
+      font-size: 0.18rem;
+      color: #fff;
+      .img-box1 {
+        height: 4.12rem;
+        margin-bottom: 0.28rem;
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          height: 1px;
+          background-color: #fff;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          width: 1px;
+          background-color: #fff;
+        }
+        >.vid1 {
+          width: 100%;
+          height: 100%;
+          background-color: #000;
+        }
+      }
+      .video-info {
+        margin-top: 0.38rem;
+        opacity: 0.6;
+      }
+    }
+  }
+  .doc-box {
+    position: absolute;
+    left: 12.33rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 0.16rem;
+    color: #fff;
+    >.doc-info {
+      display: inline-block;
+      position: relative;
+      top: 0.25rem;
+      margin-right: 0.3rem;
+      >div {
+        opacity: 0.6;
+        margin-bottom: 0.1rem;
+      }
+      >.name {
+        font-size: 0.24rem;
+        margin-bottom: 0.12rem;
+        opacity: 1;
+      }
+    }
+    >img {
+      vertical-align: middle;
+      width: 2.52rem;
+    }
+  }
+  .big-photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 32, 32, 0.94);
+    z-index: 2;
+    .slider-box {
+      width: 5rem;
+      top: 0;
+      bottom: 0;
+      left: 7.1rem;
+      position: absolute; // -webkit-transform: translateY(-50%);
+      // -ms-transform: translateY(-50%);
+      // transform: translateY(-50%);
+      .all-img-box {
+        width: 5rem;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        .img-box {
+          display: inline-block;
+          width: 5rem;
+          top: 50%;
+          position: absolute;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          left: 0;
+          >img {
+            width: 5rem;
+            display: block;
+          }
+          .annotation {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+        }
+      }
+      .btn {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 0.5rem;
+        height: 0.5rem;
+        color: #fff;
+        font-size: 0.23rem;
+        background-color: #3C3C3C;
+        text-align: center;
+        line-height: 0.5rem;
+        cursor: pointer;
+        user-select: none;
+      }
+      .left-btn {
+        left: -1rem;
+      }
+      .right-btn {
+        right: -1rem;
+      }
+      .case-info {
+        width: 5rem;
+        line-height: 0.28rem;
+        color: #fff;
+        font-size: 0.16rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: linear-gradient(0deg, #202020, transparent 120%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000, enabled=true, gradientType='0');
+        padding: 0.1rem;
+      }
+    }
+    .close {
+      font-size: 0.4rem;
+      position: absolute;
+      top: 1rem;
+      right: 2.2rem;
+      color: #C9C9C9;
+      cursor: pointer;
+      padding: 0.2rem;
+    }
+  }
+}

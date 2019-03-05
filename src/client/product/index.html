@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu white">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo-white.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li class="active">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li data-href="/invite">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <div id="container">
+    <div data-anchor="page-1"
+         class="page-1 section">
+      <div class="left-container">
+        <img class="bg-1"
+             src="./images/por-5.png"
+             alt="">
+        <img class="bg-2"
+             src="~$res/images/contactus-1.png"
+             alt="">
+        <div class="box-1">
+          <div class="case">
+            <div class="case-title">海量病例</div>
+            <div class="case-tip">医学全科室病历社区，这里有同行业贡献的第一手X光片、MRI、心电图及手术技巧图片等，利用工作闲暇时间，轻松发布并快速收集，立即与同行展开讨论。</div>
+          </div>
+          <div class="case-img">
+            <img src="./images/por-8.png"
+                 alt="">
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="right-img">
+          <img class="point-img"
+               src="./images/por-3.png"
+               alt="">
+          <img class="phone-img"
+               src="./images/por-6.png"
+               alt="">
+        </div>
+      </div>
+    </div>
+    <div data-anchor="page-2"
+         class="page-2 section">
+      <img class="bg-1"
+           src="./images/por-5.png"
+           alt="">
+      <img class="bg-2"
+           src="~$res/images/contactus-1.png"
+           alt="">
+      <div class="box-1">
+        <div class="case">
+          <div class="case-title">医学工具</div>
+          <div class="case-tip">药品查询、医学计算、临床指南，致力于帮助医生做出更准确的临床决策。</div>
+        </div>
+        <div class="case-img">
+          <img src="./images/por-7.png"
+               alt="">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="right-img">
+        <img class="point-img"
+             src="./images/por-3.png"
+             alt="">
+        <img class="phone-img"
+             src="./images/por-2.png"
+             alt="">
+        <img class="phone-content-img"
+             src="./images/por-4.png"
+             alt="">
+      </div>
+      <div class="page-footer">
+        <div class="column">
+          <div class="title">关于我们</div>
+          <div class="item">
+            <a href="/aboutus">禾医助简介</a>
+          </div>
+          <div class="item">
+            <a href="/invite">加入禾医助</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="title">联系我们</div>
+          <div class="item">
+            <a href="/contactus">商务合作</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

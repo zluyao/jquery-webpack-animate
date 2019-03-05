@@ -1,0 +1,29 @@
+stages:
+  - install_deps
+  - upload
+cache:
+  key: ${CI_BUILD_REF_NAME}
+  paths:
+    - node_modules/
+# 安装依赖
+install_deps:
+  stage: install_deps
+  tags:
+    - node10
+  only:
+    - dev
+    - master
+    - release/init
+  script:
+    - yarn
+# 部署测试服务器
+upload:
+  stage: upload
+  tags:
+    - node10
+  only:
+    - dev
+    - master
+    - release/init
+  script:
+    - npm run upload -- --commitid `git rev-parse HEAD` --branchName $CI_COMMIT_REF_NAME --suffix $CI_PIPELINE_ID --notification https://oapi.dingtalk.com/robot/send?access_token=18950ef237a80508add81a804191ab07c51f543be7766772b115791b39293601

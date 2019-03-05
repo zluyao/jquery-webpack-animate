@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 186 216" style="enable-background:new 0 0 186 216;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1CB0F1;fill-opacity:0.2;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<title>Polygon</title>
+<desc>Created with Sketch.</desc>
+<g id="UI稿">
+	<g id="医生招募" transform="translate(-1127.000000, -1582.000000)">
+		<g id="Group-8" transform="translate(-60.000000, 1080.000000)">
+			<g id="医生明星打造" transform="translate(1188.000000, 504.000000)">
+				<g>
+					<polygon id="Polygon_1_" class="st0" points="92,0 183.8,53 183.8,159 92,212 0.2,159 0.2,53 					"/>
+					
+						<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-203.3889" y1="525.0698" x2="-203.3889" y2="524.8306" gradientTransform="matrix(183.5974 0 0 -212 37433.6641 111387.6797)">
+						<stop  offset="0" style="stop-color:#21D7FE"/>
+						<stop  offset="0.2139" style="stop-color:#92FDFF"/>
+						<stop  offset="1" style="stop-color:#41E0FF"/>
+					</linearGradient>
+					<path class="st1" d="M92,213.2l-0.5-0.3l-92.3-53.3V52.4l0.5-0.3L92-1.2l92.8,53.6v107.2l-0.5,0.3L92,213.2z M1.2,158.4
+						L92,210.8l90.8-52.4V53.6L92,1.2L1.2,53.6V158.4z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

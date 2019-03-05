@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li data-href="/invite">医生招募</li>
+      <li class="active">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <div class="main">
+    <img class="logo-bg"
+         src="~$res/images/contactus-1.png">
+    <img class="point-img"
+         src="~$res/images/about-us-point.png">
+    <div class="container">
+      <div class="head">
+        <img class="about-us"
+             src="~$res/images/about-us.png">
+      </div>
+      <div class="text">
+        <p class="inline-p">
+          浙江禾连网络科技有限公司（简称：禾连健康）成立于2014年，位于最具活力的互联网之城---杭州，前身为连连集团无线事业部，多年来专注于医疗互联网产业，致力于通过互联网技术，建立服务患者、医生、医院的大平台，以“用心打造身边的健康服务”为使命，努力实现“让生命更健康”的企业愿景。目前，禾连健康已完成亿级B轮融资，业务范围包含医院WIFI、医院物联网、患者端APP--禾健康、医护端APP--禾医助等。
+        </p>
+        <p>
+          禾医助，是国内首家专注于为中国医护打造的专属临床助手平台！平台从以下几个方面为临床的医护用户赋能---帮助医护临床成长和学术成长、帮助医护进行患者管理、帮助医护提升工作和学习效率。作为首家定位于为临床医护助力的APP，禾医助可为医护人员提供免费上网、电子云病例、医拍工具、病例交流、临床指南等医学工具。同时，为全国医生提供品牌打造、运营及传播的整体解决方案！
+        </p>
+        <p>
+          地址：杭州市西湖区文一西路与崇义路交叉口郡原公元里11幢3楼
+          <br> 电话：0571-56094011
+        </p>
+
+      </div>
+    </div>
+
+    <div class="page-footer black">
+      <div class="column">
+        <div class="title">关于我们</div>
+        <div class="item">
+          <a href="/aboutus">禾医助简介</a>
+        </div>
+        <div class="item">
+          <a href="/invite">加入禾医助</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="title">联系我们</div>
+        <div class="item">
+          <a href="/contactus">商务合作</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

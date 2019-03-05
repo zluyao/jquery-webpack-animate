@@ -1,0 +1,179 @@
+.page-1 {
+  overflow: hidden;
+  background: linear-gradient(90deg, #1267C7, #1576E1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1267C7', endColorstr='#1576E1', GradientType=1);
+  >img.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 19.2rem;
+    height: 11.3rem;
+  }
+  >.main {
+    position: absolute;
+    right: 0;
+    bottom: 1.08rem;
+    left: 3.66rem;
+    height: 8.87rem;
+    top: 50%;
+    margin-top: -3.7rem;
+    >.body {
+      position: relative;
+      height: 6em;
+      overflow: hidden;
+      font-size: .88rem;
+      margin-top: -.47em;
+      >.sign {
+        width: .43em;
+        height: .21em;
+        border-radius: .02em;
+        background: linear-gradient(90deg, #2AE7FF, #0472FD);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2AE7FF', endColorstr='#0472FD', GradientType=1);
+        margin: 1.72em 0 .32em .17em;
+      }
+      >img.title {
+        display: block;
+        width: 6.04em;
+        height: .33em;
+        margin: 0 0 .9em .12em;
+      }
+      >.desc-container {
+        margin-left: .12em;
+        position: relative;
+        &::after {
+          content: '';
+          clear: both;
+        }
+        >.article {
+          float: left;
+          width: 20.5em;
+          height: 7.6em;
+          font-size: .2em;
+          line-height: 2.1em;
+          color: #fff;
+          font-weight: lighter;
+          vertical-align: top;
+          margin-top: .6em;
+        }
+        >img.qr {
+          float: left;
+          width: 1.26em;
+          height: 1.26em;
+          margin-left: .56em;
+        }
+      }
+      >.doctor-container {
+        position: absolute;
+        top: 0;
+        left: 7.32em;
+        >.grid {
+          position: absolute;
+          top: 3.16em;
+          left: 4.27em;
+          width: 2.2em;
+        }
+        >.doc {
+          width: 4.86em;
+          z-index: 10;
+          position: absolute;
+          top: .47em;
+          left: 0;
+        }
+        >.join-us {
+          position: absolute;
+          top: 4.84em;
+          left: 4.24em;
+          width: 2.91em;
+          z-index: 20;
+          opacity: .8;
+        }
+      }
+    }
+    >.footer {
+      font-size: .88rem;
+      position: relative;
+      height: 2.07em; // 这里需要同步修改 doctorList.js 文件中的滚动高度设置；还需要和下面 li 的高度设置一致。
+      margin-top: .36em;
+      overflow: hidden;
+      margin-left: .22em;
+      >ul.content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 14.7em;
+        overflow: hidden;
+        &::after {
+          content: '';
+          clear: both;
+        }
+        >li {
+          float: left;
+          width: 4.6em;
+          height: 2.07em; // 这里需要同步修改 doctorList.js 文件中的滚动高度设置；还需要和上面 .footer 的高度设置一致。
+          position: relative;
+          >.avatar {
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 2.07em;
+          }
+          >.intro {
+            position: absolute;
+            top: .8em;
+            left: 1.74em;
+            color: #BEDEFF;
+            >.title {
+              font-size: .24em;
+              line-height: 2em;
+              color: #fff;
+              >* {
+                display: inline-block;
+              }
+              >.split {
+                margin: 0 .1em;
+              }
+            }
+            >.hospital,
+            >.department {
+              font-size: .16em;
+              line-height: 1.875em;
+              font-weight: lighter;
+            }
+          }
+        }
+      }
+      >.controller {
+        position: absolute;
+        top: 50%;
+        left: 13.88em;
+        width: .4em;
+        margin-top: -.4em;
+        &::after {
+          content: '';
+          clear: both;
+        }
+        >a {
+          float: left;
+          user-select: none;
+          font-size: .15em;
+          border: .067em solid #48A1FF;
+          width: 2.67em;
+          height: 2.53em;
+          line-height: 2.53em;
+          text-align: center;
+          cursor: pointer;
+          &:hover {
+            border: .067em solid #BEDEFF;
+            color: #BEDEFF;
+            z-index: 10;
+            position: relative;
+          }
+          &.bottom {
+            margin-top: -.067em;
+          }
+        }
+      }
+    }
+  }
+}

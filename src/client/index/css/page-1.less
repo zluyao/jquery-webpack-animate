@@ -1,0 +1,196 @@
+.page-1 {
+  .img-container {
+    float: left;
+    line-height: normal !important;
+    padding: 0rem !important;
+    border: none;
+    img {
+      margin: 0rem !important;
+      padding: 0rem !important;
+      display: block;
+      border: none;
+    }
+    .img-left {
+      position: absolute;
+      right: 4.02rem;
+      width: 5.78rem;
+      height: 6.14rem;
+    }
+    .img-right {
+      position: absolute;
+      right: 0;
+      width: 5.07rem;
+      height: 6.33rem;
+    }
+  }
+  .bg-img>img.cover {
+    width: 19.2rem;
+  }
+  .left-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3.78rem;
+    z-index: 10;
+    background-color: #FAFAFA;
+  }
+  .process {
+    position: absolute;
+    bottom: 0.65rem;
+    left: 2.53rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    color: #A6CEF5;
+    font-size: 2rem;
+    background-color: transparent;
+    z-index: 20;
+    >.current {
+      float: left;
+      text-align: left;
+    }
+    >.spliter {
+      float: left;
+      text-align: center;
+      font-size: 1.2rem;
+      margin-left: -0.2rem;
+      line-height: 1.68rem;
+      height: 1.68rem;
+      width: .6rem;
+      margin-top: 0.81rem;
+    }
+    >.count {
+      float: left;
+      text-align: right;
+    }
+  }
+  .controller {
+    position: absolute;
+    bottom: .56rem;
+    left: 2.8rem;
+    z-index: 30;
+    &::after {
+      clear: both;
+      content: '';
+    }
+    a {
+      float: left;
+      user-select: none;
+      width: .38rem;
+      height: .4rem;
+      color: #A6CEF5;
+      font-size: .2rem;
+      line-height: .4rem;
+      box-sizing: border-box;
+      text-align: center;
+      border: .01rem solid #A6CEF5;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+      &:hover {
+        color: #187EEA;
+        font-weight: bold;
+        border: .01rem solid #187EEA;
+        z-index: 2;
+      }
+      &.right {
+        margin-left: -0.01rem;
+      }
+    }
+  }
+  .desc-container {
+    position: absolute;
+    width: 3.91rem;
+    height: 4.02rem;
+    top: 50%;
+    left: 4.6rem;
+    margin-top: -2.5rem;
+    >.title {
+      position: relative;
+      font-size: .64rem;
+      letter-spacing: .01rem;
+      line-height: .88rem;
+      color: #4A4A4A;
+      >.eng-title {
+        position: absolute;
+        top: .07rem;
+        right: .04rem;
+        font-size: .8rem;
+        letter-spacing: .02rem;
+        line-height: .79rem;
+      }
+      >.title-row {
+        white-space: nowrap;
+      }
+    }
+    >.description {
+      color: #777;
+      font-weight: normal;
+      font-size: .18rem;
+      letter-spacing: .01rem;
+      line-height: .88rem;
+      position: absolute;
+      top: 1.57rem;
+      left: 0;
+      white-space: nowrap;
+    }
+    >.btn-download-container {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 1.8rem;
+      height: .7rem;
+      line-height: .7rem;
+      font-size: .18rem;
+      text-align: center;
+      >.btn-download {
+        box-sizing: border-box;
+        border: .02rem solid #187EEA;
+        width: 1.8rem;
+        height: .7rem;
+        line-height: .7rem;
+        display: none;
+        background-color: #187EEA;
+        color: #fff;
+        position: relative;
+        z-index: 5;
+      }
+      >.btn-download-bg-container {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border: none;
+        >.btn-download-bg-f {
+          box-sizing: border-box;
+          border: .02rem solid #187EEA;
+          position: relative;
+          top: 0;
+          left: 0;
+          width: 1.8rem;
+          height: .7rem;
+          line-height: .7rem;
+          z-index: 3;
+          color: #fff;
+          background-color: #187EEA;
+        }
+      }
+      .btn-download-bg-b {
+        box-sizing: border-box;
+        border: .02rem solid #187EEA;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 1.8rem;
+        height: .7rem;
+        line-height: .7rem;
+        background-color: transparent;
+        color: #187EEA;
+      }
+    }
+  }
+}

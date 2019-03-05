@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li data-href="/invite">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <div class="main">
+    <img class="logo-bg"
+         src="~$res/images/contactus-1.png"
+         alt="">
+    <div class="right-img">
+      <img class="point-img"
+           src="~$res/images/about-us-point.png"
+           alt="">
+      <img class="phone-img"
+           src="./images/down-phone.png"
+           alt="">
+    </div>
+    <div class="download">
+      <i class="iconfont">&#xe64a;</i>
+      <div class="load-line"></div>
+    </div>
+    <div class="container">
+      <div class="head">
+        <p class="name">
+          下载APP
+          <i></i>
+        </p>
+        <p class="title">
+          医护的临床专属帮手
+        </p>
+      </div>
+      <div class="box">
+        <img class="a"
+             src="./images/android.png"
+             alt="Android 安装包下载地址">
+        <img class="a"
+             src="./images/ios.png"
+             alt="iOS 安装包下载地址">
+      </div>
+      <div class="text">
+        <p>
+          快速认证：医护人员需要实名认证，确保医疗数据真实性，便于医生分享病例、学习课程、互动交流等
+        </p>
+        <p>
+          认证流程：填写姓名、医院、科室、职称 上传带有姓名的工作证、胸牌或医师执业执照等证明
+        </p>
+        <p>
+          等待审核：1个工作日内审核完毕并答复
+        </p>
+        <p>
+          审核完毕：即可使用更多功能并获得小禾苗500个
+        </p>
+      </div>
+    </div>
+
+    <div class="page-footer black">
+      <div class="column">
+        <div class="title">关于我们</div>
+        <div class="item">
+          <a href="/aboutus">禾医助简介</a>
+        </div>
+        <div class="item">
+          <a href="/invite">加入禾医助</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="title">联系我们</div>
+        <div class="item">
+          <a href="/contactus">商务合作</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

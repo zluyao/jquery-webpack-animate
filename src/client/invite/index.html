@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu white">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo-white.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li class="active">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <div id="container">
+    <div data-anchor="page-1"
+         class="page-1 section">
+      <img class="bg"
+           src="./images/bg-1.png">
+      <img class="left-top"
+           src="./images/b-1-l-t.png">
+      <div class="main">
+        <div class="body">
+          <div class="sign"></div>
+          <img class="title"
+               src="./images/f-1-title.png">
+          <div class="desc-container">
+            <div class="article">
+              禾医助向医生提供专属服务，为医者赋能建立自身品牌，实现多点执业、知识变现...... 在传承中蜕变，于赋能中升级
+            </div>
+            <img class="qr"
+                 src="./images/f-1-qr.png">
+          </div>
+          <div class="doctor-container">
+            <img class="grid"
+                 src="./images/grid.png">
+            <img class="doc"
+                 src="./images/f-big-doctor.png">
+            <img class="join-us"
+                 src="./images/join-us.png">
+          </div>
+        </div>
+        <div class="footer">
+          <ul class="content">
+            <li data-id="17003411631">
+              <img class="avatar"
+                   src="./images/dr-9.png">
+              <div class="intro">
+                <div class="title">
+                  <div class="name">曹谦</div>
+                  <div class="split">-</div>
+                  <div class="level">副主任医师</div>
+                </div>
+                <div class="hospital">湘潭市中医医院</div>
+                <div class="department">骨科</div>
+              </div>
+            </li>
+            <li data-id="17004294431">
+              <img class="avatar"
+                   src="./images/dr-4.png">
+              <div class="intro">
+                <div class="title">
+                  <div class="name">伍勇</div>
+                  <div class="split">-</div>
+                  <div class="level">副主任医师</div>
+                </div>
+                <div class="hospital">岳阳市第二人民医院</div>
+                <div class="department">骨科</div>
+              </div>
+            </li>
+            <li data-id="17001527259">
+              <img class="avatar"
+                   src="./images/dr-3.png">
+              <div class="intro">
+                <div class="title">
+                  <div class="name">陈源源</div>
+                  <div class="split">-</div>
+                  <div class="level">主任医师</div>
+                </div>
+                <div class="hospital">北京大学人民医院</div>
+                <div class="department">心血管内科</div>
+              </div>
+            </li>
+          </ul>
+          <div class="controller">
+            <a class="iconfont"
+               data-direction="prev">
+              &#xe64c;
+            </a>
+            <a class="iconfont bottom"
+               data-direction="next">
+              &#xe64d;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-anchor="page-2"
+         class="page-2 section">
+      <div class="bg"></div>
+      <img class="left-top"
+           src="./images/b-1-l-t.png">
+      <img class="img-right"
+           src="~$res/images/contactus-1.png">
+      <div class="main">
+        <div class="header">
+          <div class="title">多种传媒方式，实现知识沉淀</div>
+          <div class="desc">
+            禾医助向医生提供专属服务，为医者赋能建立自身品牌，实现多点执业、知识变现...... 在传承中蜕变，于赋能中升级
+          </div>
+        </div>
+        <div class="body">
+          <div class="title">助力医护成长，树立名医品牌形象，共建多赢医疗健康教育生态圈</div>
+          <ul class="operates">
+            <li class="item">
+              <img class="border-6"
+                   src="./images/border-6.svg">
+              <img class="ul-1 ul-1-img1"
+                   src="./images/ul-1.svg">
+              <span class="icon-title">原创奖励</span>
+              <p class="word1 word">原创作者亿元奖励基金,</p>
+              <p class="word2 word">优质医学文章直接现金奖励</p>
+            </li>
+            <li class="item">
+              <img class="border-6"
+                   src="./images/border-6.svg">
+              <img class="ul-1 ul-1-img1"
+                   src="./images/ul-2.svg">
+              <span class="icon-title">多渠道收益</span>
+              <p class="word1 word">医生学分、科研变现、</p>
+              <p class="word2 word">课程收费、流量分润、多点执业</p>
+            </li>
+            <li class="item">
+              <img class="border-6"
+                   src="./images/border-6.svg">
+              <img class="ul-1 ul-1-img1"
+                   src="./images/ul-3.svg">
+              <span class="icon-title">医生明星打造</span>
+              <p class="word1 word">医生品牌形象建设包装，</p>
+              <p class="word2 word">打造医生个人流程IP</p>
+            </li>
+            <li class="item">
+              <img class="border-6"
+                   src="./images/border-6.svg">
+              <img class="ul-1 ul-1-img1"
+                   src="./images/ul-4.svg">
+              <span class="icon-title">医生集团</span>
+              <p class="word1 word">学术交流、课题研究；</p>
+              <p class="word2 word">医疗圈共享</p>
+            </li>
+          </ul>
+        </div>
+        <div class="code-box">
+          <img class="code-img"
+               src="./images/f-2-qr.png"
+               alt="">
+          <p class="code-word">成功签约医生，享受品牌赋能红利</p>
+        </div>
+      </div>
+      <div class="page-footer">
+        <div class="column">
+          <div class="title">关于我们</div>
+          <div class="item">
+            <a href="/aboutus">禾医助简介</a>
+          </div>
+          <div class="item">
+            <a href="/invite">加入禾医助</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="title">联系我们</div>
+          <div class="item">
+            <a href="/contactus">商务合作</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

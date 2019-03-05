@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 85 97" style="enable-background:new 0 0 85 97;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Fill-202_1_);}
+	.st1{fill:url(#Fill-203_1_);}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#Fill-212_1_);}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.408;stroke-linecap:round;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:2.112;stroke-linecap:round;}
+</style>
+<title>currencies</title>
+<desc>Created with Sketch.</desc>
+<linearGradient id="Fill-202_1_" gradientUnits="userSpaceOnUse" x1="-246.3084" y1="457.6086" x2="-247.1917" y2="458.5763" gradientTransform="matrix(33 0 0 -33 8206 15190.3701)">
+	<stop  offset="0" style="stop-color:#24DBFE"/>
+	<stop  offset="1" style="stop-color:#12BDFE"/>
+</linearGradient>
+<path id="Fill-202" class="st0" d="M62.5,56C71.6,56,79,63.4,79,72.5S71.6,89,62.5,89S46,81.6,46,72.5S53.4,56,62.5,56"/>
+<linearGradient id="Fill-203_1_" gradientUnits="userSpaceOnUse" x1="-245.5357" y1="456.4813" x2="-246.419" y2="457.449" gradientTransform="matrix(30 0 0 -30 7415 13735.7002)">
+	<stop  offset="0" style="stop-color:#24DBFE"/>
+	<stop  offset="1" style="stop-color:#12BDFE"/>
+</linearGradient>
+<path id="Fill-203" class="st1" d="M35,11c8.3,0,15,6.7,15,15s-6.7,15-15,15s-15-6.7-15-15S26.7,11,35,11"/>
+<g id="Group-7" transform="translate(57.000000, 65.000000)">
+	<path class="st2" d="M5.5,18.6c-0.6,0-1.2-0.5-1.2-1.2v-10c0-0.6,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2v10C6.6,18.1,6.1,18.6,5.5,18.6z"
+		/>
+	<path class="st2" d="M6.6,8.6h-2L-0.7,2C-1.1,1.5-1,0.8-0.5,0.4C-0.1,0,0.7,0.1,1.1,0.6l4.5,5.6l4.5-5.7c0.4-0.5,1.1-0.6,1.6-0.2
+		c0.5,0.4,0.6,1.1,0.2,1.6L6.6,8.6z"/>
+	<path class="st2" d="M9.8,9.9H1.4c-0.6,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2h8.4c0.6,0,1.2,0.5,1.2,1.2S10.4,9.9,9.8,9.9z"/>
+	<path class="st2" d="M9.8,13.6H1.4c-0.6,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2h8.4c0.6,0,1.2,0.5,1.2,1.2S10.4,13.6,9.8,13.6z"/>
+</g>
+<linearGradient id="Fill-212_1_" gradientUnits="userSpaceOnUse" x1="-243.4107" y1="453.3813" x2="-244.294" y2="454.349" gradientTransform="matrix(24 0 0 -24 5865 10962.3604)">
+	<stop  offset="0" style="stop-color:#24DBFE"/>
+	<stop  offset="1" style="stop-color:#12BDFE"/>
+</linearGradient>
+<path id="Fill-212" class="st3" d="M12,57c6.6,0,12,5.4,12,12s-5.4,12-12,12S0,75.6,0,69S5.4,57,12,57"/>
+<path class="st2" d="M12.2,75.7c-2.5,0-4.8-1.7-5.6-4.2c-0.2-0.6-0.3-1.3-0.3-2c0-0.6,0.1-1.2,0.3-1.8c0.8-2.6,3-4.3,5.6-4.3
+	c1.6,0,3,0.6,4.2,1.8c0.3,0.3,0.2,0.7,0,1c-0.3,0.3-0.7,0.2-1,0c-0.9-0.9-2-1.4-3.2-1.4c-2,0-3.7,1.4-4.3,3.4
+	c-0.1,0.5-0.2,1-0.2,1.5c0,0.5,0.1,1.1,0.2,1.6c0.6,2,2.3,3.3,4.3,3.3c1.3,0,2.5-0.6,3.3-1.5c0.2-0.3,0.7-0.3,1-0.1
+	c0.3,0.2,0.3,0.7,0.1,1C15.4,74.9,13.8,75.7,12.2,75.7z"/>
+<path class="st2" d="M11,68.7H5c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h6c0.4,0,0.7,0.3,0.7,0.7S11.4,68.7,11,68.7z"/>
+<path class="st2" d="M11,71.7H5c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h6c0.4,0,0.7,0.3,0.7,0.7S11.4,71.7,11,71.7z"/>
+<path class="st2" d="M35,34.1c-2.8,0-5.1-2-5.1-4.6c0-0.6,0.5-1.1,1.1-1.1s1.1,0.5,1.1,1.1c0,1.3,1.3,2.4,2.9,2.4s2.9-1.1,2.9-2.4
+	s-1.3-2.4-2.9-2.4c-0.6,0-1.1-0.5-1.1-1.1s0.5-1.1,1.1-1.1c2.8,0,5.1,2,5.1,4.6S37.8,34.1,35,34.1z"/>
+<path class="st2" d="M35,28.1c-2.8,0-5.1-2-5.1-4.6s2.3-4.6,5.1-4.6s5.1,2,5.1,4.6c0,0.6-0.5,1.1-1.1,1.1s-1.1-0.5-1.1-1.1
+	c0-1.3-1.3-2.4-2.9-2.4s-2.9,1.1-2.9,2.4s1.3,2.4,2.9,2.4c0.6,0,1.1,0.5,1.1,1.1S35.6,28.1,35,28.1z"/>
+<path class="st2" d="M34,19.9c-0.5,0-0.9-0.4-0.9-0.9v-1c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v1C34.9,19.5,34.5,19.9,34,19.9z"/>
+<path class="st2" d="M34,35.9c-0.5,0-0.9-0.4-0.9-0.9v-2c0-0.5,0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9v2C34.9,35.5,34.5,35.9,34,35.9z"/>
+<path id="Stroke-221" class="st4" d="M4,35l2,2"/>
+<path id="Stroke-222" class="st4" d="M6,35l-2,2"/>
+<path id="Stroke-223" class="st4" d="M57,2.5C57,3.3,56.3,4,55.5,4S54,3.3,54,2.5S54.7,1,55.5,1S57,1.7,57,2.5z"/>
+<path id="Fill-224" class="st2" d="M58,14c0,0.6-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S58,13.4,58,14"/>
+<path id="Fill-225" class="st2" d="M65,6l1.8-1c0,0,0.1,0,0.1,0.1l-0.3,2L68,8.7L65.9,9L65,11L64,9l-2-0.3c0,0-0.1-0.1,0-0.1
+	l1.4-1.4L63.1,5L65,6z"/>
+<path id="Fill-226" class="st2" d="M12,44c0,0.6-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S12,43.4,12,44"/>
+<path id="Fill-227" class="st2" d="M2,47c0,0.6-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S2,46.4,2,47"/>
+<path id="Stroke-228" class="st5" d="M82,92v4"/>
+<path id="Stroke-229" class="st5" d="M84,94h-4"/>
+</svg>

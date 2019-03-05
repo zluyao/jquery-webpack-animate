@@ -1,0 +1,129 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li data-href="/invite">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li class="active">联系我们</li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="tip suc-tip">
+      <img src="./images/correct.png">
+      <span>提交成功：您好，感谢您对禾医助的关注，您的联系方式已提交成功，我们会第一时间与您联系，谢谢。</span>
+    </div>
+    <div class="tip error-tip">
+      <img src="./images/cancel-1.png">
+      <span>提交未成功：您好，感谢您对禾医助的关注，您的联系方式未提交成功，请尝试刷新页面重新提交，谢谢。</span>
+    </div>
+    <img class="logo-bg"
+         src="~$res/images/contactus-1.png">
+    <div class="right-img">
+      <img class="img-bg"
+           src="./images/contactus-2.png">
+      <img class="man-img left-man"
+           src="./images/contactus-3.png">
+      <img class="man-img right-man"
+           src="./images/contactus-4.png">
+      <img class="talk-img"
+           src="./images/contactus-5.png">
+    </div>
+    <div class="container">
+      <div class="head">
+        <p class="name">
+          商务合作
+          <i></i>
+        </p>
+        <p class="title">
+          李先生
+          <i>
+            liyd@helianhealth.com
+          </i>
+        </p>
+      </div>
+      <div class="box">
+        <p class="title">
+          您也可以留下您的联系方式，我们将在1个工作日内与您联系
+        </p>
+        <p class="inputbox name-input">
+          <input type="text"
+                 class="userName "
+                 placeholder="您的姓名 " />
+        </p>
+        <div class="no-info-tip name-tip">请填写您的姓名</div>
+        <p class="inputbox phone-input">
+          <input type="text"
+                 class="mobile"
+                 placeholder="您的电话 " />
+        </p>
+        <div class="no-info-tip phone-tip">请填写您的电话</div>
+        <p class="btns">
+          <span class="btn submitInfo">
+            提交
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="page-footer black">
+      <div class="column">
+        <div class="title">关于我们</div>
+        <div class="item">
+          <a href="/aboutus">禾医助简介</a>
+        </div>
+        <div class="item">
+          <a href="/invite">加入禾医助</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="title">联系我们</div>
+        <div class="item">
+          <a href="/contactus">商务合作</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

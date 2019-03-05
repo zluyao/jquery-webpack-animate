@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu">
+    <img alt="网站 Logo"
+         data-type="dark"
+         class="website-logo"
+         src="~$res/images/logo.svg">
+    <img alt="网站 Logo"
+         data-type="light"
+         class="website-logo"
+         style="display: none;"
+         src="~$res/images/logo-white.svg">
+    <ul class="items">
+      <li class="active">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li data-href="/brand">医生品牌</li>
+      <li data-href="/invite">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <div id="container">
+    <div data-anchor="page-1"
+         class="page-1 section">
+      <div class="slide-box"
+           id="bg-container">
+        <ul class="items">
+          <li>
+            <div class="img-container bg-img screen-1">
+              <img class="cover"
+                   data-href="./images/b-1-1.png">
+              <img class="img-left"
+                   style="bottom: 2.35rem; left: 9.4rem;"
+                   data-href="./images/f-1-1-l.png">
+              <img class="img-right"
+                   style="bottom: 0;"
+                   data-href="./images/f-1-1-r.png">
+              <div class="desc-container"
+                   style="left: -5.4rem; left: -14.13rem;">
+                <div class="title">
+                  <div class="title-row">开眼界</div>
+                  <div class="title-row">了解医界百态</div>
+                  <div class="iconfont eng-title">&#xe644;</div>
+                </div>
+                <div class="description">
+                  这里有海量医学病例、前沿学术研究、新颖医学资讯
+                </div>
+                <div class="btn-download-container">
+                  <a target="_blank"
+                     class="btn-download"
+                     href="/download">
+                    下载 APP
+                  </a>
+                  <div class="btn-download-bg-container">
+                    <div class="btn-download-bg-f">下载 APP</div>
+                  </div>
+                  <div class="btn-download-bg-b">下载 APP</div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-container bg-img">
+              <img class="cover"
+                   data-href="./images/b-1-2.png">
+              <div class="desc-container"
+                   style="left: -5.4rem; left: -14.13rem;">
+                <div class="title">
+                  <div class="title-row">涨知识，</div>
+                  <div class="title-row">探讨临床知识</div>
+                </div>
+                <div class="description">
+                  这里有临床实战课程、海量经典病例、优质专家授课
+                </div>
+                <div class="btn-download-container">
+                  <a target="_blank"
+                     class="btn-download">
+                    下载 APP
+                  </a>
+                  <div class="btn-download-bg-container">
+                    <div class="btn-download-bg-f">下载 APP</div>
+                  </div>
+                  <div class="btn-download-bg-b">下载 APP</div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-container bg-img">
+              <img class="cover"
+                   data-href="./images/b-1-3.png">
+              <div class="desc-container"
+                   style="left: -5.4rem; left: -14.13rem;">
+                <div class="title">
+                  <div class="title-row">智办公，</div>
+                  <div class="title-row">轻松管理工作</div>
+                </div>
+                <div class="description">
+                  这里有实用的医务管理工具，患者信息在线看，医务解决更方便
+                </div>
+                <div class="btn-download-container">
+                  <a target="_blank"
+                     class="btn-download">
+                    下载 APP
+                  </a>
+                  <div class="btn-download-bg-container">
+                    <div class="btn-download-bg-f">下载 APP</div>
+                  </div>
+                  <div class="btn-download-bg-b">下载 APP</div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-container bg-img">
+              <img class="cover"
+                   data-href="./images/b-1-4.png">
+              <div class="desc-container"
+                   style="left: -5.4rem; left: -14.13rem;">
+                <div class="title">
+                  <div class="title-row">拓人脉，</div>
+                  <div class="title-row">同行在线交流</div>
+                </div>
+                <div class="description">
+                  这里有千万实名医护在线，加好友随时沟通互动
+                </div>
+                <div class="btn-download-container">
+                  <a target="_blank"
+                     class="btn-download">
+                    下载 APP
+                  </a>
+                  <div class="btn-download-bg-container">
+                    <div class="btn-download-bg-f">下载 APP</div>
+                  </div>
+                  <div class="btn-download-bg-b">下载 APP</div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="img-container bg-img">
+              <img class="cover"
+                   data-href="./images/b-1-5.png">
+              <div class="desc-container"
+                   style="left: -5.4rem; left: -14.13rem;">
+                <div class="title">
+                  <div class="title-row">建品牌，</div>
+                  <div class="title-row">医生品牌打造</div>
+                </div>
+                <div class="description">
+                  这里有专业的医生品牌服务，助力医生推广个人影响力
+                </div>
+                <div class="btn-download-container">
+                  <a target="_blank"
+                     class="btn-download">
+                    下载 APP
+                  </a>
+                  <div class="btn-download-bg-container">
+                    <div class="btn-download-bg-f">下载 APP</div>
+                  </div>
+                  <div class="btn-download-bg-b">下载 APP</div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="left-container"></div>
+      <div class="process">
+        <div class="current">1</div>
+        <div class="spliter">/</div>
+        <div class="count">5</div>
+      </div>
+      <div class="controller">
+        <a class="iconfont"
+           data-direction="prev">&#xe624;</a>
+        <a class="iconfont right"
+           data-direction="next">&#xe625;</a>
+      </div>
+    </div>
+    <div data-anchor="page-2"
+         class="page-2 section">
+      <div class="bg"></div>
+      <div class="bg-img">
+        <img class="left"
+             data-href="./images/p-2-bg-l.png">
+        <img class="right"
+             data-href="./images/p-2-bg-r.png">
+      </div>
+      <div class="img-grid">
+        <div class="title">
+          <div class="sign"></div>
+          <div class="invite">
+            <img data-href="./images/p-2-f-c.png">
+          </div>
+          <img class="join-us"
+               data-href="./images/join-us.png">
+          <div class="title-line"></div>
+        </div>
+        <img class="bg"
+             data-href="./images/grid.png">
+        <div class="info">
+          <div class="title">
+            <div class="name">余金丹</div>
+            <div class="split">-</div>
+            <div class="level">副主任医师</div>
+          </div>
+          <div class="normal hospital">浙江大学医学院附属儿童医院</div>
+          <div class="normal department">消化内科</div>
+        </div>
+        <div class="btn-join">
+          入驻我们
+        </div>
+      </div>
+      <img class="img-doctor"
+           data-href="./images/doctor-list/p-2-dr-3-big.png">
+      <ul class="dr-list">
+        <li data-name="伍勇"
+            data-level="主任医师"
+            data-department="骨科"
+            data-hospital="岳阳市第二人民医院"
+            data-href="./images/doctor-list/p-2-dr-1-big.png">
+          <img class="original"
+               data-href="./images/doctor-list/p-2-dr-1.png">
+          <img style="display: none;"
+               data-href="./images/doctor-list/p-2-dr-1-hover.png">
+        </li>
+        <li data-name="殷庆丰"
+            data-level="主治医师"
+            data-department="关节外科"
+            data-hospital="山东大学第二医院"
+            data-href="./images/doctor-list/p-2-dr-2-big.png">
+          <img class="original"
+               data-href="./images/doctor-list/p-2-dr-2.png">
+          <img style="display: none;"
+               data-href="./images/doctor-list/p-2-dr-2-hover.png">
+        </li>
+        <li data-name="余金丹"
+            data-level="副主任医师"
+            data-department="消化内科"
+            data-hospital="浙江大学医学院附属儿童医院"
+            data-href="./images/doctor-list/p-2-dr-3-big.png">
+          <img class="original"
+               data-href="./images/doctor-list/p-2-dr-3.png">
+          <img style="display: none;"
+               data-href="./images/doctor-list/p-2-dr-3-hover.png">
+        </li>
+        <li data-name="陈国栋"
+            data-level="副主任医师"
+            data-department="神经内科"
+            data-hospital="马鞍山市中心医院"
+            data-href="./images/doctor-list/p-2-dr-4-big.png">
+          <img class="original"
+               data-href="./images/doctor-list/p-2-dr-4.png">
+          <img style="display: none;"
+               data-href="./images/doctor-list/p-2-dr-4-hover.png">
+        </li>
+        <li data-name="姚宏伟"
+            data-level="主任医师"
+            data-department="胃肠外科"
+            data-hospital="首都医科大学附属北京友谊医院"
+            data-href="./images/doctor-list/p-2-dr-5-big.png">
+          <img class="original"
+               data-href="./images/doctor-list/p-2-dr-5.png">
+          <img style="display: none;"
+               data-href="./images/doctor-list/p-2-dr-5-hover.png">
+        </li>
+        <li data-name="肖志平"
+            data-level="主治医师"
+            data-department="皮肤科"
+            data-hospital="深圳市宝安区人民医院"
+            data-href="./images/doctor-list/p-2-dr-6-big.png">
+          <img class="original"
+               data-href="./images/doctor-list/p-2-dr-6.png">
+          <img style="display: none;"
+               data-href="./images/doctor-list/p-2-dr-6-hover.png">
+        </li>
+      </ul>
+    </div>
+    <div data-anchor="page-3"
+         class="page-3 section">
+      <div class="main">
+        <img class="bg"
+             data-href="./images/p-3-bg.png">
+        <img class="grid"
+             data-href="~$res/images/about-us-point.png">
+        <img alt="about"
+             class="about"
+             data-href="~$res/images/about-us.png">
+        <div class="intro">
+          禾医助专注于为全科室的医护提供临床、学术成长和患者管理服务，为医护人员实现常用的病例社区、医学问答、医学工具、临床疾病百科、医教课程等功能，助力医护临床成长、学术成长，并为全国医实现个人品牌价值！
+        </div>
+      </div>
+    </div>
+    <div data-anchor="page-4"
+         class="page-4 section">
+      <div class="bg"></div>
+      <div class="bg-img">
+        <img class="left"
+             data-href="./images/p-4-bg-l.png">
+        <img class="right"
+             data-href="./images/p-4-bg-r.png">
+      </div>
+      <div class="grid-container">
+        <div class="grid">
+          <div class="cell">
+            <div class="header">
+              <div class="number"
+                   data-final="160">
+                160
+              </div>
+              <div class="unit">万 +</div>
+            </div>
+            <div class="title">APP 下载量</div>
+            <div class="desc">APP 使用用户覆盖全国每个省市</div>
+          </div>
+          <div class="cell">
+            <div class="header">
+              <div class="number"
+                   data-final="60">
+                60
+              </div>
+              <div class="unit">万 +</div>
+            </div>
+            <div class="title">注册医护</div>
+            <div class="desc">每个月认证医护数量增长量 3 万 +</div>
+          </div>
+          <div class="cell">
+            <div class="header">
+              <div class="number"
+                   data-final="1700">
+                1700
+              </div>
+              <div class="unit">家 +</div>
+            </div>
+            <div class="title">覆盖医院量</div>
+            <div class="desc">覆盖全国 245 个城市，1700 多家医院，9 亿门诊人次 </div>
+          </div>
+          <div class="cell">
+            <div class="header">
+              <div class="number"
+                   data-final="24">
+                24
+              </div>
+              <div class="unit">科室</div>
+            </div>
+            <div class="title">覆盖科室</div>
+            <div class="desc">覆盖皮肤科、心血管科、骨科等科室</div>
+          </div>
+        </div>
+      </div>
+      <div class="right-wrapper">
+        <div class="right-container">
+          <div class="title-container">
+            <div class="iconfont bg">&#xe647;</div>
+            <div class="title">覆盖范围</div>
+          </div>
+          <div class="dynamic-phone">
+            <img class="phone d-p-1"
+                 data-href="./images/dynamicPhone/d-p-1.png">
+            <img class="phone d-p-2"
+                 data-href="./images/dynamicPhone/d-p-2.png">
+            <img class="phone d-p-3"
+                 data-href="./images/dynamicPhone/d-p-3.png">
+            <img class="phone d-p-4"
+                 data-href="./images/dynamicPhone/d-p-4.png">
+            <img class="phone d-p-5"
+                 data-href="./images/dynamicPhone/d-p-5.png">
+            <img class="phone d-p-6"
+                 data-href="./images/dynamicPhone/d-p-6.png">
+          </div>
+          <div class="expr-container">
+            <img class="expr"
+                 data-href="./images/b-1-4-r.png">
+            <img class="qr"
+                 data-href="./images/qr-code.png">
+          </div>
+        </div>
+      </div>
+      <div class="page-footer">
+        <div class="column">
+          <div class="title">关于我们</div>
+          <div class="item">
+            <a href="/aboutus">禾医助简介</a>
+          </div>
+          <div class="item">
+            <a href="/invite">加入禾医助</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="title">联系我们</div>
+          <div class="item">
+            <a href="/contactus">商务合作</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

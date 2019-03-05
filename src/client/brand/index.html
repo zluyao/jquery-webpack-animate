@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="shortcut icon"
+        type="image/png"
+        href="${require('$res/images/favicon.png')}">
+  <title>禾医助</title>
+  <script>
+    !function (e) {
+      var cl = null
+        , rate = 1920 / 100;
+
+      function fn() {
+        var d = e.document
+          , a = d.documentElement
+          , c = a.getBoundingClientRect().width;
+
+        c = c <= 1280 ? 1280 : c;
+        a.style.fontSize = (c / 19.2) + 'px';
+      }
+
+      window.addEventListener('resize', function () {
+        clearTimeout(cl);
+        cl = setTimeout(fn, 300);
+      }, !1);
+
+      fn();
+    }(window);
+  </script>
+</head>
+
+<body>
+  <div class="menu">
+    <img alt="网站 Logo"
+         class="website-logo"
+         src="~$res/images/logo.svg">
+    <ul class="items">
+      <li data-href="/">首页</li>
+      <li data-href="/product">产品和功能</li>
+      <li class="active">医生品牌</li>
+      <li data-href="/invite">医生招募</li>
+      <li data-href="/aboutus">关于我们</li>
+      <li data-href="/contactus">联系我们</li>
+    </ul>
+  </div>
+  <div id="container">
+    <div data-anchor="page-1"
+         class="page-1 section">
+      <img class="bg"
+           src="~$res/images/contactus-1.png">
+      <div class="article-container">
+        <div class="header">禾视界</div>
+        <div class="segment">
+          <div class="header">医生品牌服务专区</div>
+          <div class="sign"></div>
+          <div class="article">
+            依托于禾医助近百万认证医护会员、1500 万 + 大众用户及团队十多年的互联网医疗运作经验，为全国的医生提供品牌打造及传播整体解决方案，提升医生在行业、社会、患者中的品牌影响力，促进中国医疗行业品牌正向发展。
+          </div>
+        </div>
+      </div>
+      <div class="brand iconfont">&#xe648;</div>
+      <img class="grid"
+           src="~$res/images/about-us-point.png">
+      <img class="img-left"
+           style="bottom: 2.15rem;"
+           src="./images/f-1-l.png">
+      <img class="img-right"
+           style="bottom: -.39rem;"
+           src="./images/f-1-r.png">
+    </div>
+    <div data-anchor="page-2"
+         class="page-2 section">
+      <div class="page2-center">
+        <div class="desc-box">
+          <div class="desc-title">专业医学视频</div>
+          <div class="desc-detital">
+            高阶医生、医疗学术前沿专家给医生的临床病例分析、手术技巧指导、用药决策指导等专业性临床医学知识及技能教学。
+          </div>
+        </div>
+        <div class="video-icon iconfont">&#xe649;</div>
+        <div class="line-icon"></div>
+        <div class="video-box1"
+             style="top: 0.87rem;">
+          <div class="img-box1">
+            <video class="vid1"
+                   preload="metadata"
+                   controls="controls"
+                   style="display: none;"
+                   controlsList="nodownload"
+                   poster="./images/v1.png"
+                   src="https://static-doctor.oss-cn-hangzhou.aliyuncs.com/website.vedio/v1.mp4">
+            </video>
+          </div>
+          <div class="word-box1 ellipsis"
+               title="【专家病例精解】陈源源：睡觉呼吸暂停所致重度高血压治疗方案的选择">
+            【专家病例精解】陈源源：睡觉呼吸暂停所致重度高血压治疗方案的选择
+          </div>
+        </div>
+        <div class="video-box2"
+             style="top: 0.49rem;">
+          <div class="word-box2">杨氏骨科小夹板固定技巧</div>
+          <div class="img-box2">
+            <video class="vid2"
+                   preload="metadata"
+                   controls="controls"
+                   style="display: none;"
+                   controlsList="nodownload"
+                   poster="./images/v2.png"
+                   src="https://static-doctor.oss-cn-hangzhou.aliyuncs.com/website.vedio/v2.mp4">
+            </video>
+          </div>
+        </div>
+        <div class="video-box3"
+             style="top: 3.7rem;">
+          <div class="word-box3">肱骨上骨折复位视频讲解</div>
+          <div class="img-box3">
+            <video class="vid3"
+                   preload="metadata"
+                   controls="controls"
+                   style="display: none;"
+                   controlsList="nodownload"
+                   poster="./images/v3.png"
+                   src="https://static-doctor.oss-cn-hangzhou.aliyuncs.com/website.vedio/v3.mp4">
+            </video>
+          </div>
+        </div>
+        <div class="dotright-box"
+             style="right: 0.56rem;">
+          <img src="~$res/images/about-us-point.png">
+        </div>
+        <a class="more-btn"
+           href="/download">
+          查看更多
+        </a>
+      </div>
+
+      <div class="page-footer black">
+        <div class="column">
+          <div class="title">关于我们</div>
+          <div class="item">
+            <a href="/aboutus">禾医助简介</a>
+          </div>
+          <div class="item">
+            <a href="/invite">加入禾医助</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="title">联系我们</div>
+          <div class="item">
+            <a href="/contactus">商务合作</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

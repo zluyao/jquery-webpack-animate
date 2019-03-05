@@ -1,0 +1,155 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "html",
+    "react",
+    "promise"
+  ],
+  "globals": {
+    "$": true,
+    "UE": true,
+    "process": true,
+    "__dirname": true,
+    "API_PREFIX": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "block-spacing": [
+      "error",
+      "always"
+    ],
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "computed-property-spacing": [
+      "error",
+      "never"
+    ],
+    "eqeqeq": [
+      "error",
+      "always"
+    ],
+    "func-call-spacing": [
+      "error",
+      "never"
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "key-spacing": [
+      "error",
+      {
+        "beforeColon": false,
+        "afterColon": true
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "no-debugger": "warn",
+    "no-console": "off",
+    "no-caller": "error",
+    "no-div-regex": "error",
+    "no-eq-null": "error",
+    "no-extra-bind": "error",
+    "no-extra-label": "error",
+    "no-extend-native": "error",
+    "no-floating-decimal": "error",
+    "no-global-assign": "error",
+    "no-implicit-coercion": [
+      "error",
+      {
+        "allow": [
+          "!!",
+          "~"
+        ]
+      }
+    ],
+    "no-invalid-this": "error",
+    "no-iterator": "error",
+    "no-param-reassign": "error",
+    "no-undef-init": "error",
+    "no-unused-vars": "error",
+    "no-useless-return": "error",
+    "no-with": "error",
+    "no-use-before-define": "error",
+    "no-duplicate-imports": "error",
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "no-tabs": "error",
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "prefer-template": "error",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "space-infix-ops": "error",
+    "strict": [
+      "error",
+      "never"
+    ]
+  }
+}
